@@ -8,7 +8,7 @@ const favoriteRoutes = require("./routes/favoriteRoutes");
 const groupRoutes = require("./routes/groupRoutes");
 const itineraryRoutes = require("./routes/itineraryRoutes");
 const userRoutes = require("./routes/userRoutes");
-const adminRoutes = require("../Backend/routes/adminRoutes")
+const adminRoutes = require("./routes/adminRoutes")
 const app = express();
 
 // Middleware
