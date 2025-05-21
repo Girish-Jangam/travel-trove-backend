@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { loginAdmin, registerAdmin } = require('../../Backend/services/admin');
+const { loginAdmin, registerAdmin } = require('../services/admin');
 const {
   getDestinationGuides,
   getTripItineraries,
