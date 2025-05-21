@@ -8,7 +8,7 @@ const User = require("../models/User");
 const TravelGroup = require("../models/TravelGroup");
 const UserLogin = require("../models/UserLogin");
 const UserItinerary = require("../models/UserItinerary");
-const Admin = require('../../Backend/models/admin');
+const Admin = require('../models/admin')
 
 const connectDB = async () => {
   try {
