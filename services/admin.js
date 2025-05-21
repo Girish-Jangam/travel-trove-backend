@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const Admin = require('../../Backend/models/admin');
+const Admin = require('../models/admin');
 
 exports.loginAdmin = async (email, password) => {
     const admin = await Admin.findOne({ email });
